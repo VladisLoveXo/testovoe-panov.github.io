@@ -1,0 +1,229 @@
+.main-navigation {
+  transition: all 0.4s ease 0s;
+  font-size: 20px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 0;
+  overflow-x: hidden;
+  z-index: 100;
+}
+.main-navigation.active {
+  top: 0;
+}
+.main-navigation .row {
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 991.98px) {
+  .main-navigation .logoHref .logo-img {
+    margin: 0;
+    max-width: 75px;
+  }
+}
+@media (max-width: 419.98px) {
+  .main-navigation .logoHref .logo-img {
+    margin: 0 auto;
+    display: flex;
+  }
+}
+@media (max-width: 419.98px) {
+  .main-navigation__right {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.main-navigation__mobile-menu-btn {
+  display: none;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  background-color: #FF8B32;
+  border: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 101;
+  cursor: pointer;
+}
+.burger-icon {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  position: relative;
+  transition: background-color 0.3s;
+}
+.burger-icon::before,
+.burger-icon::after {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  transition: transform 0.3s, top 0.3s;
+}
+.burger-icon::before {
+  top: -8px;
+}
+.burger-icon::after {
+  top: 8px;
+}
+/* Анимация в крестик */
+.main-navigation__mobile-menu-btn.active .burger-icon {
+  background-color: transparent;
+}
+.main-navigation__mobile-menu-btn.active .burger-icon::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+.main-navigation__mobile-menu-btn.active .burger-icon::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+@media (max-width: 991.98px) {
+  .main-navigation__mobile-menu-btn {
+    display: block;
+  }
+}
+.main-navigation__list {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 991.98px) {
+  .main-navigation__list {
+    display: block;
+  }
+}
+@media (max-width: 419.98px) {
+  .main-navigation__list:hover {
+    width: unset;
+  }
+}
+@media (max-width: 419.98px) {
+  .main-navigation__list li {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.main-navigation__list-nav-li {
+  padding: 0px 20px;
+}
+.main-navigation__list-nav-li.active {
+  border-bottom: 5px solid #fff;
+}
+.main-navigation__list-nav-link {
+  padding: 25px 3px;
+  text-decoration: none;
+  display: block;
+  color: #212529;;
+}
+.main-navigation__list-nav-link:hover {
+  color: #D78C69;
+  text-decoration: none;
+}
+@media (max-width: 991.98px) {
+  .main-navigation__list-nav-link {
+    padding: 20px 0px;
+  }
+}
+.main-navigation__phone-block {
+  padding: 25px 3px;
+  display: block;
+  border-bottom: 2px solid #fff;
+  display: flex;
+  justify-content: start;
+}
+@media (max-width: 991.98px) {
+  .main-navigation__phone-block {
+    padding: 20px 20px;
+  }
+}
+.main-navigation__phone-block a {
+  color: #000;
+  text-decoration: none;
+  line-height: 29px;
+}
+.main-navigation__icon-wa {
+  width: 30px;
+  height: 30px;
+  background-color: #1cd742;
+  background-image: url(../img/icon-whatsapp.svg);
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px #1cd742;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center center;
+  margin-right: 10px;
+}
+.main-navigation__icon-wa:hover {
+  box-shadow: 0px 0px 10px #fff;
+}
+.main-navigation__icon-tg {
+  width: 30px;
+  height: 30px;
+  background-color: #37aee2;
+  background-image: url(../img/icon-telegram.png);
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px #37aee2;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: 1px 1px;
+  margin-right: 17px;
+}
+@media (max-width: 1199.98px) {
+  .main-navigation__icon-tg {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 991.98px) {
+  .main-navigation__icon-tg {
+    margin-right: 17px;
+  }
+}
+.main-navigation__icon-tg:hover {
+  box-shadow: 0px 0px 10px #fff;
+}
+@media (max-width: 991.98px) {
+  .main-navigation__container {
+    transition: all 0.4s ease 0s;
+    background-color: #fff;
+    padding: 70px 20px 10px;
+    position: fixed;
+    top: 0;
+    right: -600px;
+    bottom: 0;
+    left: unset;
+    width: 310px;
+    height: 100%;
+    z-index: 100;
+  }
+}
+@media (max-width: 419.98px) {
+  .main-navigation__container {
+    width: 100%;
+  }
+}
+@media (max-width: 991.98px) {
+  .main-navigation__container.show {
+    right: 0;
+  }
+}
+
+.head_nav_mt {
+  margin-top: 70px;
+}
+@media (max-width: 991.98px) {
+  .head_nav_mt {
+    margin-top: 0;
+  }
+}
