@@ -43,7 +43,7 @@
   width: 45px;
   height: 45px;
   padding: 10px;
-  background-color: #FF8B32;
+  background-color: var(--color-accent);
   border: 0;
   border-radius: 5px;
   overflow: hidden;
@@ -75,7 +75,6 @@
 .burger-icon::after {
   top: 8px;
 }
-/* Анимация в крестик */
 .main-navigation__mobile-menu-btn.active .burger-icon {
   background-color: transparent;
 }
@@ -123,10 +122,10 @@
   padding: 25px 3px;
   text-decoration: none;
   display: block;
-  color: #212529;;
+  color: var(--color-text-muted);
 }
 .main-navigation__list-nav-link:hover {
-  color: #D78C69;
+  color: var(--color-primary);
   text-decoration: none;
 }
 @media (max-width: 991.98px) {
@@ -154,10 +153,10 @@
 .main-navigation__icon-wa {
   width: 30px;
   height: 30px;
-  background-color: #1cd742;
+  background-color: var(--color-whatsapp);
   background-image: url(../img/icon-whatsapp.svg);
   border-radius: 100%;
-  box-shadow: 0px 0px 10px #1cd742;
+  box-shadow: 0px 0px 10px var(--color-whatsapp);
   display: inline-block;
   background-repeat: no-repeat;
   background-size: 90%;
@@ -170,10 +169,10 @@
 .main-navigation__icon-tg {
   width: 30px;
   height: 30px;
-  background-color: #37aee2;
+  background-color: var(--color-telegram);
   background-image: url(../img/icon-telegram.png);
   border-radius: 100%;
-  box-shadow: 0px 0px 10px #37aee2;
+  box-shadow: 0px 0px 10px var(--color-telegram);
   display: inline-block;
   background-repeat: no-repeat;
   background-size: 90%;

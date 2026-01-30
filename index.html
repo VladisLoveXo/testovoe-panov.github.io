@@ -8,20 +8,30 @@
   <title>Петербург сквозь года с Владимиром Заруцким</title>
   <meta name="description" content="Нарисуйте 12 пейзажей, изучите архитектуру и передавайте образы с помощью акварели.">
 
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="apple-touch-icon" href="img/logo.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Петербург сквозь года с Владимиром Заруцким">
+  <meta property="og:description" content="Нарисуйте 12 пейзажей, изучите архитектуру и передавайте образы с помощью акварели.">
+  <meta property="og:image" content="img/header.png">
+  <meta property="og:locale" content="ru_RU">
+
+  <link rel="preload" href="fonts/BernierDistressed.otf" as="font" type="font/otf" crossorigin>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/custom.css">
 </head>
 
 <body class="webp">
-  <main>
-    <nav class="main-navigation shadow">
-      <!-- Бургер кнопка -->
+
+  <nav class="main-navigation shadow">
       <button class="main-navigation__mobile-menu-btn" type="button" aria-label="Меню">
         <span class="burger-icon"></span>
       </button>
@@ -29,19 +39,19 @@
         <div class="row">
           <div class="col-lg-1">
             <a class="logoHref" href="#">
-              <img src="img/logo.png" alt="" class="logo-img img-fluid">
+              <img src="img/logo.png" alt="Логотип курса" class="logo-img img-fluid">
             </a>
           </div>
           <div class="col-12 col-lg-9">
             <ul class="main-navigation__list nav list-unstyled">
               <li class="main-navigation__list-nav-li">
-                <a class="main-navigation__list-nav-link" href="#what">О чем курс</a>
+                <a class="main-navigation__list-nav-link" href="#target-audience">О чем курс</a>
               </li>
               <li class="main-navigation__list-nav-li">
-                <a class="main-navigation__list-nav-link" href="#packages">Записаться на курс</a>
+                <a class="main-navigation__list-nav-link" href="#pricing">Записаться на курс</a>
               </li>
               <li class="main-navigation__list-nav-li">
-                <a class="main-navigation__list-nav-link" href="#questions">Вопросы</a>
+                <a class="main-navigation__list-nav-link" href="#faq">Вопросы</a>
               </li>
             </ul>
           </div>
@@ -55,80 +65,76 @@
       </div>
     </nav>
 
+  <main>
     <header class="header head_nav_mt" id="header">
       <div class="container">
         <div class="row">
           <div class="col-lg-9 col-12">
             <h1>Петербург <span class="small">сквозь года</span> <span class="sub">с Владимиром Заруцким</span></h1>
             <ul>
-              <li>Нарисуйте <b>12 пейзажей</b>: от ретро Петербурга до сегодняшних дней</li>
-              <li>Изучите <b>способы передачи особенностей архитектуры</b> с помощью акварели</li>
-              <li>Научитесь передавать <b>художественные образы и замыслы</b></li>
+              <li>Нарисуйте <strong>12 пейзажей</strong>: от ретро Петербурга до сегодняшних дней</li>
+              <li>Изучите <strong>способы передачи особенностей архитектуры</strong> с помощью акварели</li>
+              <li>Научитесь передавать <strong>художественные образы и замыслы</strong></li>
             </ul>
           </div>
         </div>
 
         <div class="row mb-4">
           <div class="col-12 d-none d-lg-block">
-            <picture>
-              <img class="img-fluid header-img__desc" src="img/header.png" alt="">
-            </picture>
+            <img class="img-fluid header-img__desc" src="img/header.png" alt="Акварельные пейзажи Петербурга">
+            <img class="img-fluid header-img__desc-brush" src="img/brush.png" alt="">
           </div>
           <div class="col-12 d-block d-lg-none">
-            <picture>
-              <img class="img-fluid header-img" src="img/header.png" alt="">
-            </picture>
+            <img class="img-fluid header-img" src="img/header.png" alt="Акварельные пейзажи Петербурга">
           </div>
         </div>
 
         <div class="row">
           <div class="col-lg-6 col-12">
-            <a href="#what" class="button button_big scroll">узнать подробности</a>
+            <a href="#target-audience" class="button button_big scroll">узнать подробности</a>
           </div>
         </div>
 
-        <div class="row advantages">
+        <div class="row course-highlights">
           <div class="col-lg-3 col-sm-6 col-12">
             <div class="item">
-              <p><b>Материал:</b> акварель</p>
+              <p><strong>Материал:</strong> акварель</p>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6 col-12">
             <div class="item">
-              <p><b>Количество картин:</b> 12</p>
+              <p><strong>Количество картин:</strong> 12</p>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6 col-12">
             <div class="item">
-              <p><b>Продолжительность курса:</b> 20 часов</p>
+              <p><strong>Продолжительность курса:</strong> 20 часов</p>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6 col-12">
             <div class="item">
-              <p><b>Доступ:</b> бессрочный</p>
+              <p><strong>Доступ:</strong> бессрочный</p>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <section class="about what" id="what">
+    <section class="about target-audience" id="target-audience">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-12 what__bg">
+          <div class="col-lg-8 col-12 target-audience__bg">
             <h2>Для кого будет полезен курс</h2>
-            <p>На моем курсе «Петербург сквозь года с Владимиром Заруцким» вы научитесь рисовать акварелью городские пейзажи. Этот курс для тех, кто хочет <b>научиться или усовершенствовать свои навыки в акварели</b>. Уверен, вам понравится!</p>
+            <p>На моем курсе «Петербург сквозь года с Владимиром Заруцким» вы научитесь рисовать акварелью городские пейзажи. Этот курс для тех, кто хочет <strong>научиться или усовершенствовать свои навыки в акварели</strong>. Уверен, вам понравится!</p>
           </div>
           <div class="col-lg-4 col-12">
-            <picture>
-              <img class="img-fluid what-img" src="img/about.jpg" alt="" loading="lazy">
-            </picture>
+            <img class="img-fluid target-audience-img" src="img/about.jpg" alt="Владимир Заруцкий — преподаватель курса" loading="lazy">
           </div>
         </div>
       </div>
     </section>
 
-    <section class="materials">
+    <section class="art-supplies">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -137,12 +143,12 @@
         </div>
         <div class="row">
           <div class="col-lg-3 col-12">
-            <img class="img-fluid" src="img/materials-1.png" alt="" loading="lazy">
-            <p class="materials__head">Краски</p>
+            <img class="img-fluid" src="img/materials-1.png" alt="Акварельные краски" loading="lazy">
+            <p class="art-supplies__head">Краски</p>
             <div class="dropdown dropright drop-1">
-              <a type="button" class="btn drop-btn drop-btn-paints" data-toggle="dropdown">
-                <span class="materials-indicator materials-indicator-1">
-                  <span class="materials-indicator-chevron materials-indicator-chevron-1"></span>
+              <a href="#" role="button" class="btn drop-btn drop-btn-paints" data-toggle="dropdown" aria-expanded="false">
+                <span class="art-supplies-indicator art-supplies-indicator-1">
+                  <span class="art-supplies-indicator-chevron art-supplies-indicator-chevron-1"></span>
                 </span>
                 список красок
               </a>
@@ -168,12 +174,12 @@
             </div>
           </div>
           <div class="col-lg-3 col-12">
-            <img class="img-fluid" src="img/materials-2.png" alt="" loading="lazy">
-            <p class="materials__head">Кисти</p>
+            <img class="img-fluid" src="img/materials-2.png" alt="Кисти для акварели" loading="lazy">
+            <p class="art-supplies__head">Кисти</p>
             <div class="dropdown dropright drop-1 drop-2">
-              <a type="button" class="btn drop-btn drop-btn-brushes" data-toggle="dropdown">
-                <span class="materials-indicator materials-indicator-1">
-                  <span class="materials-indicator-chevron materials-indicator-chevron-1"></span>
+              <a href="#" role="button" class="btn drop-btn drop-btn-brushes" data-toggle="dropdown" aria-expanded="false">
+                <span class="art-supplies-indicator art-supplies-indicator-1">
+                  <span class="art-supplies-indicator-chevron art-supplies-indicator-chevron-1"></span>
                 </span>
                 список кистей
               </a>
@@ -190,23 +196,25 @@
             </div>
           </div>
           <div class="col-lg-3 col-12">
-            <img class="img-fluid" src="img/materials-3.png" alt="" loading="lazy">
-            <p class="materials__head">Бумага</p>
-            <p class="materials__text">300гр/м, хлопок Saunders Waterford, Палаццо</p>
+            <img class="img-fluid" src="img/materials-3.png" alt="Акварельная бумага" loading="lazy">
+            <p class="art-supplies__head">Бумага</p>
+            <p class="art-supplies__text">300гр/м, хлопок Saunders Waterford, Палаццо</p>
           </div>
           <div class="col-lg-3 col-12">
-            <img class="img-fluid" src="img/materials-4.png" alt="" loading="lazy">
-            <p class="materials__head">Карандаш 2В, 3В</p>
+            <img class="img-fluid" src="img/materials-4.png" alt="Карандаши для эскизов" loading="lazy">
+            <p class="art-supplies__head">Карандаш 2В, 3В</p>
           </div>
         </div>
-        <div class="col-12">
-          <div class="line">&nbsp;</div>
-          <p class="materials__text">Всё это рекомендации, не обязательно использовать то же самое!</p>
+        <div class="row">
+          <div class="col-12">
+            <hr class="line">
+            <p class="art-supplies__text">Всё это рекомендации, не обязательно использовать то же самое!</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="packages" class="packages">
+    <section id="pricing" class="pricing">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
@@ -215,29 +223,29 @@
         </div>
         <div class="row mt-4">
           <div class="col-12 col-md-8 offset-md-2 col-lg-4 offset-lg-0 mb-5 d-flex flex-column">
-            <div class="packages__item packages__item-1 d-flex flex-column">
-              <div class="packages__item-title">Рисую сам</div>
+            <div class="pricing__item pricing__item-1 d-flex flex-column">
+              <div class="pricing__item-title">Рисую сам</div>
               <div class="d-flex flex-column justify-content-between">
-                <div class="packages__item-description">
-                  <img src="img/tarif.png" alt="" class="img-fluid w-100 mb-3" loading="lazy">
+                <div class="pricing__item-description">
+                  <img src="img/tarif.png" alt="Примеры работ курса" class="img-fluid w-100 mb-3" loading="lazy">
                   <ul>
                     <li>12 пейзажей: от ретро Петербурга до сегодняшних дней</li>
                     <li>17 уроков : теория + практика + развивающие упражнения</li>
                     <li>Личная часовая онлайн-консультация с экспертом курса</li>
                   </ul>
                 </div>
-                <div class="packages__item-buy">
-                  <div class="packages__item-prices">
-                    <div class="packages__item-price packages__item-price-old text-center mt-4 order-2">
+                <div class="pricing__item-buy">
+                  <div class="pricing__item-prices">
+                    <div class="pricing__item-price pricing__item-price-old text-center mt-4 order-2">
                       <span data-price="7990">7 990</span> <span class="symbol">₽</span>
                     </div>
-                    <div class="packages__item-price packages__item-price-new text-center mt-4 order-2">
+                    <div class="pricing__item-price pricing__item-price-new text-center mt-4 order-2">
                       <span data-price="4990">4 990</span> <span class="symbol">₽</span>
                     </div>
                   </div>
-                  <div class="codes mb-3 mt-4 pt-2 text-center">
-                    <a data-code="RUB" href="javascript:void(0)" class="currency-code active">₽</a>
-                    <a data-code="USD" href="javascript:void(0)" class="currency-code">$</a>
+                  <div class="codes mb-3 mt-4 pt-2 text-center" role="group" aria-label="Выбор валюты">
+                    <button type="button" data-code="RUB" class="currency-code active" aria-pressed="true">₽</button>
+                    <button type="button" data-code="USD" class="currency-code" aria-pressed="false">$</button>
                   </div>
                   <div class="buttons my-5">
                     <a href="#" class="button button-big">Принять участие</a>
@@ -247,33 +255,33 @@
             </div>
           </div>
           <div class="col-12 col-md-8 offset-md-2 col-lg-4 offset-lg-0 mb-5 d-flex flex-column">
-            <div class="packages__item packages__item-2 d-flex flex-column">
-              <div class="packages__item-title packages__item-title-2">С поддержкой</div>
+            <div class="pricing__item pricing__item-2 d-flex flex-column">
+              <div class="pricing__item-title pricing__item-title-2">С поддержкой</div>
               <div class="d-flex flex-column justify-content-between">
-                <div class="packages__item-description">
-                  <img src="img/tarif.png" alt="" class="img-fluid w-100 mb-3" loading="lazy">
+                <div class="pricing__item-description">
+                  <img src="img/tarif.png" alt="Примеры работ курса" class="img-fluid w-100 mb-3" loading="lazy">
                   <ul>
                     <li>12 пейзажей: от ретро Петербурга до сегодняшних дней</li>
                     <li>17 уроков : теория + практика + развивающие упражнения</li>
                     <li>Личная часовая онлайн-консультация с экспертом курса</li>
                     <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-coin" viewBox="0 0 16 16" style="margin-bottom: 6px;background-color: #f4c420;border-radius: 40px;">><path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z"/><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-coin icon-bonus" viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z"/><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
                         +1000 бонусных рублей! Можно потратить при покупке курса на следующем марафоне. Сгорают через 3 месяца
                     </li>
                   </ul>
                 </div>
-                <div class="packages__item-buy">
-                  <div class="packages__item-prices">
-                    <div class="packages__item-price packages__item-price-old text-center mt-4 order-2">
+                <div class="pricing__item-buy">
+                  <div class="pricing__item-prices">
+                    <div class="pricing__item-price pricing__item-price-old text-center mt-4 order-2">
                       <span data-price="9990">9 990</span> <span class="symbol">₽</span>
                     </div>
-                    <div class="packages__item-price packages__item-price-new text-center mt-4 order-2">
+                    <div class="pricing__item-price pricing__item-price-new text-center mt-4 order-2">
                       <span data-price="5990">5 990</span> <span class="symbol">₽</span>
                     </div>
                   </div>
-                  <div class="codes mb-3 mt-4 pt-2 text-center">
-                    <a data-code="RUB" href="javascript:void(0)" class="currency-code active">₽</a>
-                    <a data-code="USD" href="javascript:void(0)" class="currency-code">$</a>
+                  <div class="codes mb-3 mt-4 pt-2 text-center" role="group" aria-label="Выбор валюты">
+                    <button type="button" data-code="RUB" class="currency-code active" aria-pressed="true">₽</button>
+                    <button type="button" data-code="USD" class="currency-code" aria-pressed="false">$</button>
                   </div>
                   <div class="buttons my-5">
                     <a href="#" class="button button-big">Принять участие</a>
@@ -283,29 +291,29 @@
             </div>
           </div>
           <div class="col-12 col-md-8 offset-md-2 col-lg-4 offset-lg-0 mb-5 d-flex flex-column">
-            <div class="packages__item packages__item-3 d-flex flex-column">
-              <div class="packages__item-title">VIP</div>
+            <div class="pricing__item pricing__item-3 d-flex flex-column">
+              <div class="pricing__item-title">VIP</div>
               <div class="d-flex flex-column justify-content-between">
-                <div class="packages__item-description">
-                  <img src="img/tarif.png" alt="" class="img-fluid w-100 mb-3" loading="lazy">
+                <div class="pricing__item-description">
+                  <img src="img/tarif.png" alt="Примеры работ курса" class="img-fluid w-100 mb-3" loading="lazy">
                   <ul>
                     <li>12 пейзажей: от ретро Петербурга до сегодняшних дней</li>
                     <li>17 уроков : теория + практика + развивающие упражнения</li>
                     <li>Личная часовая онлайн-консультация с экспертом курса</li>
                   </ul>
                 </div>
-                <div class="packages__item-buy">
-                  <div class="packages__item-prices">
-                    <div class="packages__item-price packages__item-price-old text-center mt-4 order-2">
+                <div class="pricing__item-buy">
+                  <div class="pricing__item-prices">
+                    <div class="pricing__item-price pricing__item-price-old text-center mt-4 order-2">
                       <span data-price="22980">22 980</span> <span class="symbol">₽</span>
                     </div>
-                    <div class="packages__item-price packages__item-price-new text-center mt-4 order-2">
+                    <div class="pricing__item-price pricing__item-price-new text-center mt-4 order-2">
                       <span data-price="15990">15 990</span> <span class="symbol">₽</span>
                     </div>
                   </div>
-                  <div class="codes mb-3 mt-4 pt-2 text-center">
-                    <a data-code="RUB" href="javascript:void(0)" class="currency-code active">₽</a>
-                    <a data-code="USD" href="javascript:void(0)" class="currency-code">$</a>
+                  <div class="codes mb-3 mt-4 pt-2 text-center" role="group" aria-label="Выбор валюты">
+                    <button type="button" data-code="RUB" class="currency-code active" aria-pressed="true">₽</button>
+                    <button type="button" data-code="USD" class="currency-code" aria-pressed="false">$</button>
                   </div>
                   <div class="buttons my-5">
                     <a href="#" class="button button-big">Принять участие</a>
@@ -318,33 +326,33 @@
       </div>
     </section>
 
-    <section class="questions" id="questions">
+    <section class="faq" id="faq">
       <div class="container">
         <div class="row">
-          <div class="questions-header col-12">
-            <h2 class="questions-heading text-center">Частые вопросы</h2>
+          <div class="faq-header col-12">
+            <h2 class="faq-heading text-center">Частые вопросы</h2>
           </div>
           <div class="col-12">
-            <dl class="questions-item">
-              <dt class="questions-question">
-                <span class="questions-indicator">
-                  <span class="questions-indicator-chevron"></span>
+            <dl class="faq-item">
+              <dt class="faq-question" role="button" tabindex="0" aria-expanded="true" aria-controls="faq-answer-1">
+                <span class="faq-indicator" aria-hidden="true">
+                  <span class="faq-indicator-chevron"></span>
                 </span>
                 Я совсем не умею рисовать. Стоит ли мне идти на курс?
               </dt>
-              <dd class="questions-answer show">
+              <dd class="faq-answer show" id="faq-answer-1">
                 <p>Конечно стоит! Курс специально построен так что сначала идут простые картины а потом более сложные, так что вы успеете влиться в процесс и достичь высоких результатов!</p>
                 <p>Для опытных художников курс также будет полезен. Вы сможете ещё больше отработать технику, а также увеличить свою насмотренность.</p>
               </dd>
             </dl>
-            <dl class="questions-item">
-              <dt class="questions-question collapsed">
-                <span class="questions-indicator">
-                  <span class="questions-indicator-chevron"></span>
+            <dl class="faq-item">
+              <dt class="faq-question collapsed" role="button" tabindex="0" aria-expanded="false" aria-controls="faq-answer-2">
+                <span class="faq-indicator" aria-hidden="true">
+                  <span class="faq-indicator-chevron"></span>
                 </span>
                 Как устроена обратная связь?
               </dt>
-              <dd class="questions-answer">
+              <dd class="faq-answer" id="faq-answer-2">
                 <p>В конце урока вы выложите фотографию своей работы. У преподавателя будет возможность оставить к вашей работе текстовый, графический (пометки на рисунке), а также аудио-комментарий.</p>
                 <p>В нижней части каждого урока будет блок комментариев, где можно задавать любые вопросы по обучению.</p>
               </dd>
@@ -354,91 +362,144 @@
       </div>
     </section>
 
-    <footer class="black global-footer" id="contacts">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <div class="footer-social">
-              <a href="#" class="icon-telegram" aria-label="Наш Telegram"></a>
-              <a href="#" class="icon-whatsapp" aria-label="Мы в WhatsApp"></a>
-            </div>
-            <p><a href="#">Политика приватности</a></p>
-            <p>По всем вопросам вы можете писать в службу поддержки:</p>
-            <p><a href="mailto:your@email.com" target="_blank">your@email.com</a></p>
-            <p>&copy; 2025, ИП Косенко Андрей Владимирович, ОГРН 308614728400011</p>
-          </div>
-        </div>
-      </div>
-    </footer>
   </main>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+  <footer class="black global-footer" id="contacts">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="footer-social">
+            <a href="#" class="icon-telegram" aria-label="Наш Telegram"></a>
+            <a href="#" class="icon-whatsapp" aria-label="Мы в WhatsApp"></a>
+          </div>
+          <p><a href="#">Политика приватности</a></p>
+          <p>По всем вопросам вы можете писать в службу поддержки:</p>
+          <p><a href="mailto:your@email.com">your@email.com</a></p>
+          <p>&copy; 2025, ИП Косенко Андрей Владимирович, ОГРН 308614728400011</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
 
   <script>
-    var currency = {
-      "USD": {"code": "USD", "value": "70", "symbol": "$"},
-      "RUB": {"code": "RUB", "value": "1", "symbol": "₽"}
-    };
+    (function($) {
+      'use strict';
 
-    jQuery(document).ready(function($) {
-      $('.codes > a').click(function() {
-        var code = $(this).data('code');
-        var defaultprice = 0;
-        $('.codes > a').removeClass('active');
-        $('[data-code="' + code + '"]').addClass('active');
-        $('[data-price]').each(function() {
-          defaultprice = $(this).data('price');
-          $(this).text(Math.ceil(defaultprice / currency[code].value).toLocaleString('ru'));
-          $('.symbol').text(currency[code].symbol);
+      var CONFIG = {
+        scrollDuration: 1100,
+        navHeight: 60,
+        desktopBreakpoint: 768
+      };
+
+      var CURRENCY_RATES = {
+        USD: { rate: 70, symbol: '$' },
+        RUB: { rate: 1, symbol: '₽' }
+      };
+
+      var SELECTORS = {
+        currencyBtn: '.currency-code',
+        priceValue: '[data-price]',
+        priceSymbol: '.symbol',
+        scrollLink: 'nav a, a.scroll',
+        faqQuestion: '.faq-question',
+        faqAnswer: '.faq-answer',
+        burgerBtn: '.main-navigation__mobile-menu-btn',
+        navContainer: '.main-navigation__container',
+        navLink: '.main-navigation__list-nav-link'
+      };
+
+      function initCurrencyConverter() {
+        $(document).on('click', SELECTORS.currencyBtn, function() {
+          var currencyCode = $(this).data('code');
+          var currencyData = CURRENCY_RATES[currencyCode];
+
+          $(SELECTORS.currencyBtn).removeClass('active').attr('aria-pressed', 'false');
+          $(this).addClass('active').attr('aria-pressed', 'true');
+
+          $(SELECTORS.priceValue).each(function() {
+            var basePrice = $(this).data('price');
+            var converted = Math.ceil(basePrice / currencyData.rate);
+            $(this).text(converted.toLocaleString('ru'));
+          });
+
+          $(SELECTORS.priceSymbol).text(currencyData.symbol);
         });
-      });
+      }
 
-      jQuery('nav a, a.scroll').click(function(e) {
-        var elementClick = jQuery(this).attr("href");
-        if (!elementClick || elementClick === "#" || !elementClick.startsWith("#")) {
-          return;
-        }
-        var target = jQuery(elementClick);
-        if (!target.length) {
-          return;
-        }
-        e.preventDefault();
-        var menusize = 0;
-        if (window.innerWidth >= 768) {
-          menusize = 60;
-          if ($(this).attr('data-scrollOffset')) {
-            menusize = $(this).attr('data-scrollOffset');
+      function initSmoothScroll() {
+        $(document).on('click', SELECTORS.scrollLink, function(e) {
+          var href = $(this).attr('href');
+
+          if (!href || href === '#' || href.charAt(0) !== '#') {
+            return;
           }
+
+          var $target = $(href);
+          if (!$target.length) return;
+
+          e.preventDefault();
+
+          var offset = 0;
+          if (window.innerWidth >= CONFIG.desktopBreakpoint) {
+            offset = $(this).data('scrollOffset') || CONFIG.navHeight;
+          }
+
+          $('html, body').stop().animate({
+            scrollTop: $target.offset().top - offset
+          }, CONFIG.scrollDuration);
+        });
+      }
+
+      function initFaqAccordion() {
+        function toggleFaq($question) {
+          var isExpanded = $question.attr('aria-expanded') === 'true';
+          $question
+            .toggleClass('collapsed')
+            .attr('aria-expanded', !isExpanded);
+          $question.next(SELECTORS.faqAnswer).toggleClass('show');
         }
-        var destination = target.offset().top - menusize;
-        jQuery("html:not(:animated),body:not(:animated)").animate({
-          scrollTop: destination
-        }, 1100);
+
+        $(document).on('click', SELECTORS.faqQuestion, function() {
+          toggleFaq($(this));
+        });
+
+        $(document).on('keydown', SELECTORS.faqQuestion, function(e) {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            toggleFaq($(this));
+          }
+        });
+      }
+
+      function initMobileMenu() {
+        var $burger = $(SELECTORS.burgerBtn);
+        var $nav = $(SELECTORS.navContainer);
+
+        function closeMenu() {
+          $burger.removeClass('active');
+          $nav.removeClass('show');
+        }
+
+        $burger.on('click', function() {
+          $(this).toggleClass('active');
+          $nav.toggleClass('show');
+        });
+
+        $(document).on('click', SELECTORS.navLink, closeMenu);
+      }
+
+      $(function() {
+        initCurrencyConverter();
+        initSmoothScroll();
+        initFaqAccordion();
+        initMobileMenu();
       });
 
-      // Аккордеон вопросов (чистый CSS transition)
-      $('.questions-question').click(function() {
-        var $this = $(this);
-        var $answer = $this.next('.questions-answer');
-
-        $this.toggleClass('collapsed');
-        $answer.toggleClass('show');
-      });
-
-      // Мобильное меню (бургер)
-      $('.main-navigation__mobile-menu-btn').click(function() {
-        $(this).toggleClass('active');
-        $('.main-navigation__container').toggleClass('show');
-      });
-
-      // Закрытие меню при клике на ссылку
-      $('.main-navigation__list-nav-link').click(function() {
-        $('.main-navigation__mobile-menu-btn').removeClass('active');
-        $('.main-navigation__container').removeClass('show');
-      });
-    });
+    })(jQuery);
   </script>
 
 </body>
